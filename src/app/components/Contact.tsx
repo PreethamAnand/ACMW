@@ -6,14 +6,14 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'acmw@vignan.edu',
-      link: 'mailto:acmw@vignan.edu',
+      value: 'acmw',
+      link: 'mailto:acmw',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      link: 'tel:+919876543210',
+      value: '+91 ',
+      link: 'tel:+91',
     },
     {
       icon: MapPin,
