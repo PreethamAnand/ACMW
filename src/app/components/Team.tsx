@@ -7,19 +7,19 @@ export function Team() {
   const facultyAdvisors = [
     {
       name: 'Dr J.R.V. Jenny',
-      role: 'Faculty Advisor',
-      department: 'Computer Science & Engineering',
+      role: 'Head of the Department-CSE(AI&ML)',
+      department: 'CSE-(AI&ML)',
       specialization: 'Artificial Intelligence & Machine Learning',
       image: '/faculty/hod.jpeg',
-      email: 'priya.sharma@vignan.ac.in',
+      // email: 'priya.sharma@vignan.ac.in',
     },
     {
       name: 'Prof. Godwin',
       role: 'Faculty Coordinator',
-      department: 'Information Technology',
-      specialization: 'Data Science & Analytics',
+      department: 'CSE - (AI&ML) ',
+      specialization: 'Artificial Intelligence & Machine Learning',
       image: '/faculty/sir.jpeg',
-      email: 'anjali.reddy@vignan.ac.in',
+      // email: 'anjali.reddy@vignan.ac.in',
     },
   ];
 

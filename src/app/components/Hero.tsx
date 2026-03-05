@@ -129,33 +129,44 @@ export function Hero() {
               <div className="relative w-full h-56 overflow-hidden">
                 <img
                   src="/Up_Coming_Events/up_coming.jpeg"
-                  alt="Upcoming Events Banner"
+                  alt="SHE NOVA IDEATHON Banner"
                   className="w-full h-full object-cover"
                 />
-                <button className="absolute bottom-4 right-4 px-4 py-2 bg-gradient-to-r from-[#7B2FF7] to-purple-600 text-white text-sm font-medium rounded-full hover:shadow-lg hover:shadow-purple-500/40 transition-all duration-300">
-                  Register
-                </button>
+                <a 
+                  href="https://forms.gle/KpLP24tKbxMEMMU46" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="absolute bottom-4 right-4 px-4 py-2 bg-gradient-to-r from-[#7B2FF7] to-purple-600 text-white text-sm font-medium rounded-full hover:shadow-lg hover:shadow-purple-500/40 transition-all duration-300"
+                >
+                  Register Now 🆓
+                </a>
               </div>
 
               {/* Event Content */}
               <div className="p-6 space-y-4">
                 <div>
                   <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-lg font-bold text-gray-900">Women in Tech Summit 2025</h3>
-                    <span className="px-3 py-1 bg-purple-100 text-purple-600 text-xs font-semibold rounded-full">Summit</span>
+                    <h3 className="text-lg font-bold text-gray-900">✨ SHE NOVA – IDEATHON ✨</h3>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-600 text-xs font-semibold rounded-full">Ideathon</span>
                   </div>
+                  <p className="text-sm text-gray-600 mb-4 font-medium">
+                    "Where She Builds, The World Evolves." 🚀
+                  </p>
                   <p className="text-sm text-gray-600 mb-4">
-                    Annual summit celebrating women in technology with keynote speakers and panel discussions
+                    A women-only innovation challenge celebrating creativity, empowerment, and impact!
                   </p>
                   <div className="space-y-2 text-sm text-gray-600">
                     <div className="flex items-center gap-2">
-                      <span>📅</span> January 15, 2025
+                      <span>📅</span> March 6, 2026
                     </div>
                     <div className="flex items-center gap-2">
-                      <span>🕐</span> 10:00 AM - 4:00 PM
+                      <span>👥</span> Team Size: 2 Members
                     </div>
                     <div className="flex items-center gap-2">
-                      <span>📍</span> Main Auditorium
+                      <span>🎁</span> Exciting Prizes Await!
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span>💸</span> No Registration Fee (FREE)
                     </div>
                   </div>
                 </div>
@@ -163,7 +174,7 @@ export function Hero() {
                 {/* Small Bottom Info */}
                 <div className="pt-3 border-t border-gray-100">
                   <p className="text-xs text-gray-500">
-                    Join us for an inspiring day of learning, networking, and celebrating women in tech.
+                    ✨ Step forward. Speak your ideas. Shape the future. Open to all branches & years!
                   </p>
                 </div>
               </div>
