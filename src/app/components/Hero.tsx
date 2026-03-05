@@ -126,11 +126,11 @@ export function Hero() {
             {/* Merged Event Card */}
             <div className="bg-white/80 backdrop-blur-sm border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
               {/* Banner Image */}
-              <div className="relative w-full h-56 overflow-hidden">
+              <div className="relative w-full h-56 overflow-hidden bg-gray-100">
                 <img
                   src="/Up_Coming_Events/up_coming.jpeg"
                   alt="SHE NOVA IDEATHON Banner"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
                 <a 
                   href="https://forms.gle/KpLP24tKbxMEMMU46" 
