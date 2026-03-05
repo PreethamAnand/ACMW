@@ -45,7 +45,7 @@ export function Hero() {
               className="space-y-4"
             >
               <h1 className="text-5xl sm:text-6xl lg:text-6xl text-gray-900 leading-tight font-bold">
-                <span className="block">Welcome to</span>
+                <span className="block font-libre-baskerville-bold">Welcome to</span>
                 <span className="block">
                   <DecryptedText
                     text="ACM-W Vignan"
@@ -55,7 +55,7 @@ export function Hero() {
                     revealDirection="start"
                     sequential={true}
                     useOriginalCharsOnly={true}
-                    className="text-transparent bg-clip-text bg-gradient-to-r from-[#7B2FF7] via-purple-400 to-purple-600"
+                    className="font-libre-baskerville-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7B2FF7] via-purple-400 to-purple-600"
                   />
                 </span>
               </h1>
